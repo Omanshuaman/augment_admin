@@ -188,7 +188,7 @@ const Admin = () => {
 
       setLoading(false);
 
-      history.push("/admin");
+      history.push("/");
       document.location.reload();
     } catch (error) {
       toast({
